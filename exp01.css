@@ -1,0 +1,28 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    background-color: yellow;
+    padding-left: 50px;
+    height: 50px;
+
+}
+
+#stilo1 {
+    background-color: green;
+}
+
+.stilo2{
+    background-color: aqua;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
