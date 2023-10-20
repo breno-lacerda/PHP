@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(179, 72, 241, 0.767)
+}
+
+h1 {
+    background-color: rgb(64, 9, 153);
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    width: 200px;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.conteudo {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.397);
+}

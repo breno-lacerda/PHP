@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.estilo1{
+    height: 300px;
+    background-color: red;
+    padding: 50px;
+}
+
+.estilo2{
+    height: 300px;
+    background-color: blue;
+}
+
+.estilo3{
+    height: 300px;
+    background-color: yellow;
+}
+
+.estilo4{
+    margin-top: 50px;
+    margin: 50px;
+    background-color: black;
+    height: 200px;
+}
+
+h1 {
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
