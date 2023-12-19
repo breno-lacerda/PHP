@@ -1,0 +1,72 @@
+.box{
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 500px;
+    width: 600px;
+    background-color: red;
+    display: grid;
+    grid-template-areas: "header header"
+    "conteudo lateral"
+    "rodape rodape";
+    grid-template-columns: 450px 150px;
+    grid-template-rows: 100px 1fr 100px;
+}
+.header{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    grid-area:header ;
+}
+.lateral{
+    background-color: rgb(25, 0, 254);
+    text-align: center;
+    padding: 10px;
+    grid-area:lateral ;
+}
+.conteudo{
+    background-color: rgb(24, 120, 255);
+    text-align: center;
+    display: flex;
+    grid-area:conteudo ;
+}
+.rodape{
+    background-color: rgb(15, 155, 110);
+    grid-area:rodape ;
+    display: flex;
+}
+.p1{
+    height: 90px;
+    background-color: rgb(226, 125, 43);
+    padding-top: 10px;
+    width: 100%;
+}
+.p2{
+    height: 90px;
+    background-color: rgb(226, 43, 83);
+    padding-top: 10px;
+    width: 100%;
+}
+.p3{
+    height: 90px;
+    background-color: rgb(186, 43, 226);
+    padding-top: 10px;
+    width: 100%;
+}
+.c1{
+    height: 90px;
+    background-color: rgb(16, 13, 126);
+    padding-top: 10px;
+    width: 100%;
+}
+.c2{
+    height: 90px;
+    background-color: rgb(186, 43, 6);
+    padding-top: 10px;
+    width: 100%;
+}
+.c3{
+    height: 90px;
+    background-color: rgb(16, 43, 226);
+    padding-top: 10px;
+    width: 100%;
+}

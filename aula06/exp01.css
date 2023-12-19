@@ -1,0 +1,23 @@
+.item1 { grid-area: HEADER; }
+.item2 { grid-area: MENU; }
+.item3 { grid-area: MAIN; }
+.item4 { grid-area: RIGHT; }
+.item5 { grid-area: FOOTER; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'HEADER HEADER HEADER HEADER HEADER HEADER'
+    'MENU MAIN MAIN MAIN RIGHT RIGHT'
+    'MENU FOOTER FOOTER FOOTER FOOTER FOOTER';
+  gap: 10px;
+  background-color: #743025;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(25, 200, 136, 0.8);
+  text-align: center;
+  padding: 105px 0;
+  font-size: 30px;
+}
