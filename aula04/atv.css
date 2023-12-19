@@ -1,0 +1,9 @@
+#img{
+    background-image: url(cabo.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    border: green 2px solid;
+    margin-left: 50px;
+    margin-top: 50px;
+}
